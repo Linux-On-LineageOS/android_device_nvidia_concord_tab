@@ -24,3 +24,4 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/tablet_core_hardware.xml:system/etc/permissions/tablet_core_hardware.xml
+$(call inherit-product, vendor/lindroid/lindroid.mk)
